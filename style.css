@@ -125,25 +125,25 @@ color:#FFC845;
 
 .btn{
 
-background:white;
+display:inline-block;
 
-color:#1D4F91;
-
-border-radius:50px;
+margin-top:65px;
 
 padding:18px 50px;
-
-font-weight:700;
-
-box-shadow:0 8px 20px rgba(0,0,0,.25);
-
-}
-
-.btn:hover{
 
 background:#FFC845;
 
 color:#1D4F91;
+
+text-decoration:none;
+
+border-radius:50px;
+
+font-size:20px;
+
+font-weight:700;
+
+transition:.3s;
 
 }
 /* About */
