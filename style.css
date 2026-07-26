@@ -189,31 +189,99 @@ body {
     color: white;
 }
 
-/* 3. SOP SECTION */
+/* ==========================================
+   3. STATEMENT OF PURPOSE (SOP) STYLES
+   ========================================== */
 #sop {
     padding: 100px 0;
-    background: #1D4F91;
+    background: linear-gradient(180deg, #1D4F91 0%, #0035AD 100%);
+}
+
+.section-subtitle.light {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .sop-card {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 200, 69, 0.2);
-    padding: 40px;
-    border-radius: 20px;
-    color: white;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 200, 69, 0.3);
+    border-radius: 25px;
+    padding: 50px;
+    color: #ffffff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.sop-card h3 {
+.sop-header {
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 200, 69, 0.3);
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+
+.sop-header h3 {
+    font-size: 26px;
     color: #FFC845;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-weight: 600;
 }
 
-.sop-card p {
+.sop-author {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 8px;
+}
+
+.sop-body p {
     font-size: 18px;
-    margin-bottom: 20px;
-    text-indent: 30px;
+    line-height: 1.85;
+    margin-bottom: 22px;
+    color: #f1f1f1;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* อักษรนำตัวใหญ่ย่อหน้าแรก */
+.sop-body p.first-paragraph::first-letter {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFC845;
+    float: left;
+    line-height: 1;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+/* ตัวเน้นข้อความ */
+.highlight-text {
+    color: #FFC845;
+    font-weight: 600;
+}
+
+.sop-footer {
+    margin-top: 40px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFC845;
+    border-top: 1px dashed rgba(255, 255, 255, 0.2);
+    padding-top: 20px;
+}
+
+/* รองรับการแสดงผลบนหน้าจอมือถือ */
+@media (max-width: 768px) {
+    .sop-card {
+        padding: 25px;
+    }
+
+    .sop-header h3 {
+        font-size: 20px;
+    }
+
+    .sop-body p {
+        font-size: 16px;
+        text-align: left;
+    }
 }
 
 /* 4. CERTIFICATES SECTION */
