@@ -10,7 +10,7 @@ scroll-behavior:smooth;
 
 body{
 font-family:'Prompt',sans-serif;
-background:#f5f7fb;
+background:#1D4F91;
 }
 
 /* Cover */
@@ -24,6 +24,8 @@ display:flex;
 justify-content:center;
 
 align-items:center;
+
+background:#1D4F91;
 
 }
 
