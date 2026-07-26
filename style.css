@@ -241,16 +241,6 @@ body {
     text-justify: inter-word;
 }
 
-/* อักษรนำตัวใหญ่ย่อหน้าแรก */
-.sop-body p.first-paragraph::first-letter {
-    font-size: 45px;
-    font-weight: 700;
-    color: #FFC845;
-    float: left;
-    line-height: 1;
-    padding-right: 10px;
-    padding-top: 4px;
-}
 
 /* ตัวเน้นข้อความ */
 .highlight-text {
