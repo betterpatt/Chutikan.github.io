@@ -1,196 +1,177 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
-    font-family:'Prompt',sans-serif;
+font-family:'Prompt',sans-serif;
+background:#f5f7fb;
 }
 
-/* ---------- Cover ---------- */
+/* Cover */
 
 .cover{
 
-    height:100vh;
+height:100vh;
 
-    background:#f5f7fb;
+display:flex;
+
+justify-content:center;
+
+align-items:center;
 
 }
 
 .overlay{
 
-    width:100%;
-    height:100%;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
+width:100%;
 }
 
 .hero{
 
-    width:85%;
+width:85%;
 
-    display:flex;
+margin:auto;
 
-    justify-content:space-between;
+display:flex;
 
-    align-items:center;
+align-items:center;
 
-    gap:80px;
+justify-content:space-between;
+
+gap:80px;
 
 }
 
+/* รูป */
+
 .hero-image{
 
-    flex:1;
+flex:1;
 
-    display:flex;
+display:flex;
 
-    justify-content:center;
+justify-content:center;
 
 }
 
 .hero-image img{
 
-    width:360px;
+width:360px;
 
-    height:500px;
+height:520px;
 
-    object-fit:cover;
+object-fit:cover;
 
-    border-radius:25px;
+border-radius:25px;
 
-    box-shadow:0 20px 40px rgba(0,0,0,.2);
+box-shadow:0 20px 50px rgba(0,0,0,.15);
 
 }
 
+/* ข้อความ */
+
 .hero-text{
 
-    flex:1;
+flex:1;
 
 }
 
 .hero-text h1{
 
-    font-size:60px;
+font-size:58px;
 
-    color:#1D4F91;
+font-weight:700;
 
-    line-height:1.2;
+color:#1D4F91;
+
+line-height:1.2;
 
 }
 
 .hero-text h2{
 
-    margin-top:15px;
+margin-top:15px;
 
-    font-size:42px;
+font-size:42px;
 
-    color:#FFC845;
+color:#FFC845;
 
 }
 
 .hero-text p{
 
-    margin-top:25px;
+margin-top:25px;
 
-    font-size:24px;
+font-size:24px;
 
-    color:#555;
+line-height:1.8;
 
-    line-height:1.8;
+color:#555;
 
 }
 
+/* ปุ่ม */
+
 .btn{
 
-    display:inline-block;
+display:inline-block;
 
-    margin-top:40px;
+margin-top:40px;
 
-    background:#1D4F91;
+padding:18px 45px;
 
-    color:white;
+background:#1D4F91;
 
-    padding:16px 45px;
+color:white;
 
-    border-radius:50px;
+text-decoration:none;
 
-    text-decoration:none;
+border-radius:50px;
 
-    font-size:20px;
+font-size:20px;
 
-    transition:.3s;
+transition:.3s;
 
 }
 
 .btn:hover{
 
-    background:#FFC845;
+background:#FFC845;
 
-    color:black;
-
-}
-
-.btn{
-
-    margin-top:40px;
-
-    background:#1D4F91;
-
-    color:white;
-
-    padding:15px 45px;
-
-    border-radius:40px;
-
-    text-decoration:none;
-
-    transition:.3s;
-
-    font-size:20px;
+color:black;
 
 }
 
-.btn:hover{
-
-    background:#FFC845;
-
-    color:black;
-
-}
-
-/* ---------- About ---------- */
+/* About */
 
 #about{
 
-    padding:100px;
+padding:100px;
 
-    background:white;
+background:white;
 
 }
 
 #about h2{
 
-    color:#1D4F91;
+font-size:45px;
 
-    font-size:45px;
+color:#1D4F91;
+
+margin-bottom:25px;
 
 }
 
 #about p{
 
-    color:#444;
+font-size:22px;
 
-    font-size:22px;
-
-    margin-top:20px;
+color:#444;
 
 }
