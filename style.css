@@ -100,7 +100,7 @@ white-space:nowrap;
 
 .hero-text h2{
 
-margin-top:15px;
+margin-top:20px;
 
 font-size:42px;
 
@@ -112,11 +112,13 @@ color:#FFC845;
 
 margin-top:25px;
 
-font-size:24px;
+font-size:23px;
 
 line-height:1.8;
 
-color:#555;
+color:white;
+
+opacity:.9;
 
 }
 
@@ -126,13 +128,13 @@ color:#555;
 
 display:inline-block;
 
-margin-top:40px;
+margin-top:45px;
 
-padding:18px 45px;
+padding:18px 50px;
 
-background:#1D4F91;
+background:#FFC845;
 
-color:white;
+color:#1D4F91;
 
 text-decoration:none;
 
@@ -140,15 +142,17 @@ border-radius:50px;
 
 font-size:20px;
 
+font-weight:600;
+
 transition:.3s;
 
 }
 
 .btn:hover{
 
-background:#FFC845;
+background:white;
 
-color:black;
+color:#1D4F91;
 
 }
 
